@@ -1,0 +1,138 @@
+site_url: https://linkedin.github.io/school-of-sre/
+site_name: School Of SRE
+docs_dir: courses
+theme:
+  name: material
+  logo: img/sos.png
+  favicon: img/favicon.ico
+  custom_dir: overrides
+extra_css:
+    - stylesheets/custom.css
+nav:
+- Home: index.md
+- Level 101:
+    - Fundamentals Series:
+        - Linux Basics:
+            - Introduction: level101/linux_basics/intro.md
+            - Command Line Basics: level101/linux_basics/command_line_basics.md
+            - Server Administration: level101/linux_basics/linux_server_administration.md
+            - Conclusion: level101/linux_basics/conclusion.md
+        - Git:
+            - Git Basics: level101/git/git-basics.md
+            - Working With Branches: level101/git/branches.md
+            - Github and Hooks: level101/git/github-hooks.md
+            - Conclusion: level101/git/conclusion.md
+        - Linux Networking:
+            - Introduction: level101/linux_networking/intro.md
+            - DNS: level101/linux_networking/dns.md
+            - UDP: level101/linux_networking/udp.md
+            - HTTP: level101/linux_networking/http.md
+            - TCP: level101/linux_networking/tcp.md
+            - Routing: level101/linux_networking/ipr.md
+            - Conclusion: level101/linux_networking/conclusion.md
+    - Python and Web:
+        - Introduction: level101/python_web/intro.md
+        - Some Python Concepts: level101/python_web/python-concepts.md
+        - Python, Web and Flask: level101/python_web/python-web-flask.md
+        - The URL Shortening App: level101/python_web/url-shorten-app.md
+        - Conclusion: level101/python_web/sre-conclusion.md
+    - Data:
+        - Relational Databases:
+            - Introduction: level101/databases_sql/intro.md
+            - Key Concepts: level101/databases_sql/concepts.md
+            - MySQL: level101/databases_sql/mysql.md
+            - InnoDB: level101/databases_sql/innodb.md
+            - Backup and Recovery: level101/databases_sql/backup_recovery.md
+            - MySQL Replication: level101/databases_sql/replication.md
+            - Operational Concepts: level101/databases_sql/operations.md
+            - Select Query: level101/databases_sql/select_query.md
+            - Query Performance: level101/databases_sql/query_performance.md
+            - Lab: level101/databases_sql/lab.md
+            - Conclusion: level101/databases_sql/conclusion.md
+        - NoSQL:
+            - Introduction: level101/databases_nosql/intro.md
+            - Key Concepts: level101/databases_nosql/key_concepts.md
+            - Conclusion:  level101/databases_nosql/further_reading.md
+        - Big Data:
+            - Introduction: level101/big_data/intro.md
+            - Evolution and Architecture of Hadoop: level101/big_data/evolution.md
+            - Conclusion: level101/big_data/tasks.md
+    - Systems Design:
+        - Introduction: level101/systems_design/intro.md
+        - Scalability: level101/systems_design/scalability.md
+        - Availability: level101/systems_design/availability.md
+        - Fault Tolerance: level101/systems_design/fault-tolerance.md
+        - Conclusion: level101/systems_design/conclusion.md
+    - Metrics and Monitoring:
+        - Introduction: level101/metrics_and_monitoring/introduction.md
+        - Command-line Tools: level101/metrics_and_monitoring/command-line_tools.md
+        - Third-party Monitoring: level101/metrics_and_monitoring/third-party_monitoring.md
+        - Proactive Monitoring with Alerts: level101/metrics_and_monitoring/alerts.md
+        - Best Practices for Monitoring: level101/metrics_and_monitoring/best_practices.md
+        - Observability: level101/metrics_and_monitoring/observability.md
+        - Conclusion: level101/metrics_and_monitoring/conclusion.md
+    - Security:
+        - Introduction: level101/security/intro.md
+        - Fundamentals of Security: level101/security/fundamentals.md
+        - Network Security: level101/security/network_security.md
+        - Threat, Attacks & Defences: level101/security/threats_attacks_defences.md
+        - Writing Secure code: level101/security/writing_secure_code.md
+        - Conclusion: level101/security/conclusion.md
+- Level 102:
+  - Linux Intermediate:
+      - Introduction: level102/linux_intermediate/introduction.md
+      - Package Management: level102/linux_intermediate/package_management.md
+      - Storage Media: level102/linux_intermediate/storage_media.md
+      - Archiving and Backup: level102/linux_intermediate/archiving_backup.md
+      - Introduction to Vim: level102/linux_intermediate/introvim.md
+      - Bash Scripting: level102/linux_intermediate/bashscripting.md
+      - Conclusion: level102/linux_intermediate/conclusion.md
+  - Linux Advanced:
+    - Containerization And Orchestration:
+      - Introduction: level102/containerization_and_orchestration/intro.md
+      - Introduction To Containers: level102/containerization_and_orchestration/intro_to_containers.md
+      - Containerization With Docker: level102/containerization_and_orchestration/containerization_with_docker.md
+      - Orchestration With Kubernetes: level102/containerization_and_orchestration/orchestration_with_kubernetes.md
+      - Conclusion: level102/containerization_and_orchestration/conclusion.md
+    - System Calls and Signals:
+      - Introduction: level102/system_calls_and_signals/intro.md
+      - Signals: level102/system_calls_and_signals/signals.md
+      - System Calls: level102/system_calls_and_signals/system_calls.md
+      - Conclusion: level102/system_calls_and_signals/conclusion.md
+  - Networking:
+      - Introduction: level102/networking/introduction.md
+      - Security: level102/networking/security.md
+      - Scale: level102/networking/scale.md
+      - RTT: level102/networking/rtt.md
+      - Infrastructure Services: level102/networking/infrastructure-features.md
+      - Conclusion: level102/networking/conclusion.md
+  - System Design:
+      - Introduction: level102/system_design/intro.md
+      - Large System Design: level102/system_design/large-system-design.md
+      - Scaling: level102/system_design/scaling.md
+      - Scaling Beyond the Data Center: level102/system_design/scaling-beyond-the-datacenter.md
+      - Resiliency: level102/system_design/resiliency.md
+      - Conclusion: level102/system_design/conclusion.md
+  - System Troubleshooting and Performance Improvements:
+        - Introduction: level102/system_troubleshooting_and_performance/introduction.md
+        - Troubleshooting: level102/system_troubleshooting_and_performance/troubleshooting.md
+        - Important Tools: level102/system_troubleshooting_and_performance/important-tools.md
+        - Performance Improvements: level102/system_troubleshooting_and_performance/performance-improvements.md
+        - Troubleshooting Example: level102/system_troubleshooting_and_performance/troubleshooting-example.md
+        - Conclusion: level102/system_troubleshooting_and_performance/conclusion.md
+  - Continuous Integration and Continuous Delivery:
+        - Introduction: level102/continuous_integration_and_continuous_delivery/introduction.md
+        - What is CI/CD?: level102/continuous_integration_and_continuous_delivery/introduction_to_cicd.md
+        - Brief History: level102/continuous_integration_and_continuous_delivery/cicd_brief_history.md
+        - Continuous Integration: level102/continuous_integration_and_continuous_delivery/continuous_integration_build_pipeline.md
+        - Continuous Delivery and Deployment: level102/continuous_integration_and_continuous_delivery/continuous_delivery_release_pipeline.md
+        - CI/CD Pipeline - Hands-on: level102/continuous_integration_and_continuous_delivery/jenkins_cicd_pipeline_hands_on_lab.md
+        - Conclusion: level102/continuous_integration_and_continuous_delivery/conclusion.md
+- Contribute: CONTRIBUTING.md
+- Code of Conduct: CODE_OF_CONDUCT.md
+- SRE Community: sre_community.md
+copyright: "Copyright 2020 LinkedIn Corporation. All Rights Reserved. Licensed under the Creative Commons Attribution 4.0 International Public License"
+extra:
+    social:
+        - icon: fontawesome/brands/github
+          link: https://github.com/linkedin/school-of-sre
